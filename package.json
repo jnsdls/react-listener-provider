@@ -1,0 +1,33 @@
+{
+  "name": "react-listener-provider",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf lib && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnsdls/react-perimeter.git"
+  },
+  "author": {
+    "name": "Jonas Daniels",
+    "email": "jonas@bebo.com",
+    "url": "https://www.twitter.com/jnsdls"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-react": "^6.23.0",
+    "flow-bin": "^0.41.0",
+    "invariant": "^2.2.2",
+    "rimraf": "^2.6.1"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
