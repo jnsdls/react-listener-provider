@@ -1,6 +1,7 @@
 // @flow
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import invariant from 'invariant';
+import PropTypes from 'prop-types';
 
 type subscription = () => void;
 type subscriptionObj = {};

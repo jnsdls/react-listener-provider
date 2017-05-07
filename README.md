@@ -61,6 +61,10 @@ class App extends Component {
 ```
 yarn add react-listener-provider
 ```
+Since version 0.2.0 you'll also need "prop-types" as a peer dependency.
+```
+yarn add prop-types
+```
 
 
 ## API
